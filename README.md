@@ -14,7 +14,7 @@ Este repositorio está dedicado a la educación y concienciación sobre los poli
 Para visualizar los recursos disponibles, simplemente accede a `Polinizadores.html` desde tu navegador y explora el contenido multimedia alojado en las carpetas correspondientes.  
 
 ## 👥 Autores y colaboradores  
-- **GARCÍ ASILVA DIEGO ANTONIO* (dantox23) - Creadores y desarrolladores del repositorio.  
+- **GARCÍ ASILVA DIEGO ANTONIO** (dantox23) - Creadores y desarrolladores del repositorio.  
 - **GUTIERREZ JUAREZ OSIEL**
 - **GARCIA HERNANDEZ LUZ** 
 - **ZACARIAS BERNABE, CAROLINA** 
