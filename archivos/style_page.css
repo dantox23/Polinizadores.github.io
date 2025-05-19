@@ -1,0 +1,447 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	background-color: #277BC0;
+	text-align: center;
+	padding: 60px;
+}
+header h1{
+	color: white;
+	font-family: "Lilita One", sans-serif;
+  	font-style: normal;
+}
+body nav{
+	background-color: #FFF4CF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+#inicio{
+	width: 40px;
+	height: auto;
+}
+body nav table{
+    width: 65% ;
+	height: 30px;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100px;
+	border: solid  #277BC0;
+
+}
+body nav table td{
+	width: 200px;
+	height: auto;
+	background-color: none;
+	display: inline-block;
+	text-align: center;
+	padding: 8px;
+	border: none;
+	border-radius: 10px;
+}
+body nav table td tr li{
+	border: none;
+}
+body nav table td li a{
+	font-family: "Nunito", sans-serif;
+	font-optical-sizing: auto;
+	font-style:normal;
+	font-size: 14px;
+	text-align: center;
+	color: #277BC0;
+	text-decoration: none;
+}
+body nav table tr td li a:hover, body nav table tr td:hover{
+	color: #FFB200;
+}
+body main{
+    background-color: #FFF4CF;
+    text-align: center;
+    padding-top: 1px;
+	width: 100%;
+	padding-bottom: 40px;
+}
+body main section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-color: #FFF4CF;
+    text-align: center; 
+    padding-bottom: 30px;
+    margin-top: 20px;
+	align-items: center;
+	align-content: center;
+}
+body main section h1{
+	font-family: "lilita one";
+	font-size: 50px;
+	padding-bottom: 30px;
+	color: #277BC0;
+}
+body main section h3{
+	font-family: "Nunito", sans-serif;
+	font-size: 22px;
+	color: #277BC0;
+	padding-top: 30px;
+}
+body main section p{
+	width: 100%;
+	font-family: "Nunito", sans-serif;
+  	font-optical-sizing: auto;
+ 	font-style: normal;
+	font-weight: 500;
+	text-align: justify;
+}
+body footer {
+    background-color: #FFB200 ;
+	padding: 30px;
+	text-align: center;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+body footer table{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+body footer table td{
+	max-width: 100%;
+	border: none;
+	flex-wrap: wrap;
+	padding-right: 15px;
+	margin-left: 15px;
+}
+body footer table th{
+	align-content: center;
+}
+.ttabla{
+	max-width: 100%;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: center;
+}
+.ttabla h2{
+	max-width: 100%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 1000;
+    text-align:center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+body footer table td h2{
+	max-width: 100%;
+	font-family: "Nunito", sans-serif;
+ 	font-weight: 1000;
+	text-align: left;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+}
+body footer table td p{
+	font-size: 15px;
+	font-family: "Nunito", sans-serif;
+ 	font-weight: 1000;
+	text-align: center;
+	padding: 5px;
+	color: #277BC0;
+}
+body footer table td a{
+	text-decoration: none;
+}
+body footer table td img{
+	max-width: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+body footer table td a p:hover{
+	color: white;
+}
+header, nav, main, footer{
+	max-widht: 1080px;
+	min-width: 600px;
+	webki-box-sizing: border-box;
+	moz-box-sizing:border-box;
+	box-sizing: border-box;
+	overflow:inherit;
+	flex-wrap: wrap;
+}
+body main section th{
+	border: none;
+}
+body main section h2 {
+	color: #277BC0;
+	font-family: "Lilita One", sans-serif;
+  	font-size: 30px;
+    margin: auto;
+    margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+}
+body main section table td{
+	border: none;
+	width: 60%;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+body main section table tbody tr h3{
+	color: #277BC0;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 100%;
+	margin-right: auto;
+	margin-top: auto;
+	border-radius: 10px;
+	font-size: 22px;
+	font-weight: 1000;
+}
+body main section table td h4{
+	font-family: "nunito";
+	padding: 10px;
+	font-size: 18px; 
+
+}
+body main section table td p{
+	width: 90%;
+    text-align:justify;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+}
+body main section table td video{
+	 max-width: 100%;
+}
+body main section video{
+    width: 95%;
+}
+#tablae{
+	width: auto;
+	background-color: #FFCB42;
+}
+main section p {
+    margin-top: 20px;   
+	text-align: left;
+    font-weight: 200;
+    line-height: 20px;
+}
+main section img {
+    width: 81%;
+    height: auto;
+}
+body main section table{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2.5px;
+	border-color: #277BC0;
+	background-color: #FFCB42;
+	border-radius: 10px;
+}
+body main section table video{
+	max-width: 100%;
+	min-width: 40px;
+	align-content: center;
+	align-items: center;
+}
+#tdatos{
+	background-color: #FFB200;
+	border-color: #277BC0;	
+}
+#tdatos td{
+	border-color: #277BC0;
+	border-bottom-color: #277BC0;
+}
+#imagenp{
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+}
+.vyte{
+	margin-top: 10px;
+	max-width: 920px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+.vyt{
+	max-width: 150%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+#videoi{
+	padding-top: 1000px;
+}
+.animate__animated.animate__swing{
+	animation-duration: 2s;
+	animation-delay: .6s;
+	animation-direction: alternate;
+}
+.animate__animated.animate__pulse{
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.animate__animated.animate__headShake{
+	animation-duration: 3s;
+	animation-delay: .6s;
+	animation-iteration-count:infinite;
+}
+.animate__animated.animate__slideInDown{
+	animation-duration: 2s;
+	animation-delay: .5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+#videoa1, #videoa2, #videoa3, #videoa4{
+	width: 420px;
+}
+.vyte3{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	justify-content: center;
+}
+.tnoti section table{
+	display:flex;
+}
+.tnoti h4{
+	font-size: 17px;
+	font-family: "lilita one";
+  	font-optical-sizing: auto;
+	color: #277BC0;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.tnoti p{
+	font-size: 15px;
+	font-family: "Nunito", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+	text-align: left;
+}
+.tnoti td{
+	max-width: 100%;
+		padding-bottom: 30px;
+
+}
+.tnoti img{
+	max-width: 310px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	border-radius: 15px;
+}
+.tnoti a{
+	text-decoration: none;
+	font-family: "Nunito";
+	font-size: 12px;
+	color: #277BC0;
+}
+.imgc{
+    max-width: 920px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width: 300px;
+}
+.tablac p{
+	font-family: "nunito";
+	font-size: 14px;
+	font-optical-sizing: auto;
+	text-align: left;
+	
+}
+.tablac{
+	max-width: 100%;
+	padding: 0px;
+}
+.tablac h4{
+	font-family: "lilita one";
+	color: #277BC0;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+}
+.tablac th, .tablac2 th{
+	border: none;
+}
+.tablac2{
+	max-width: 100%;
+	padding: 0px;
+}
+.tablac2 p{
+	font-family: "nunito";
+	font-size: 14px;
+	font-optical-sizing: auto;
+	text-align: right;
+}
+.tablac2 h4{
+	font-family: "lilita one";
+	color: #277BC0;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: right;
+}
+body main th{
+	max-width: 100%;
+	border-color: #277BC0;
+	padding: 30px;
+	align-content: center;
+}
+.videoimpor{
+	max-width: 300px;
+	margin-left: 4px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	align-content: center;
+}
+#tipos{
+	max-width: 100%;
+}
+#tipos p{
+	text-align: center;
+	font-family: "Nunito";
+	font-size: 16px;
+	font-weight: 600;
+	font-optical-sizing: auto;
+
+	
+}
+#tipos h3{
+	text-align: center;
+	font-family: "Nunito";
+	font-weight: 800;
+	color: #277BC0;
+	margin-bottom: 10px;
+}
+#tipo td{
+	max-width: 1080px;
+}
